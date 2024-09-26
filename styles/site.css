@@ -3,51 +3,50 @@
 body {
     font-family: "Arial", "Helvetica", sans-serif;
     background: #ffffff;
-    background-color: beige;
-}
-
-.hglogo {
-    width: 164px;
-    float: right;
-    margin-left: 1rem;
 }
 
 header {
     display: flex;
     align-items: center;
     border-bottom: 2px solid rgb(165, 28, 48);
+    padding-bottom: 20px;
 }
 
-header img {
-    margin-right: 10px;
+header.logoWithHeader {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/harvard-gazette.png');
+    background-size: 164px 64px;
+    background-repeat: no-repeat;
+    height: 64px;
+    padding-left: 200px;
 }
+
+
+
 
 h1 {
     color: rgb(165, 28, 48);
 }
 
 h2 {
-    color: black;
-    background-color: white;
-}
-
-h3 {
-    color: black;
-    background-color: white;
-    line-height: 150%;
-    padding-left: 2rem;
+    color: darkblue;
 }
 
 article {
+    color: gray
     margin: 20px 30px 20px 30px; /* top, right, bottom, left */
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: #f9f9f9;
 }
 
 p {
-    color: black;
-    background-color: white;
     line-height: 150%;
     padding-left: 2rem;
+}
+
+section {
+    clear: both;
+    overflow: auto;
 }
